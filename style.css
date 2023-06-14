@@ -1,0 +1,120 @@
+/* Reset default browser styles */
+html, body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 100px;
+  background-image: url("bgimg.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Blog Segments */
+#blogs {
+  padding: 50px;
+}
+
+.blog-segment {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-segment h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-segment p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.blog-segment a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* News Feeds */
+#news {
+  background-color: #fff;
+  padding: 50px;
+}
+
+/* Upcoming Events */
+#events {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+/* Jobs */
+#jobs {
+  background-color: #fff;
+  padding: 50px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+embed {
+    width: 100%;
+    height: 300px;
+    scroll-behavior: smooth;
+}
